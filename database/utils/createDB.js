@@ -10,7 +10,7 @@ const {dbName, dbUser, dbPwd} = require('./configDB');  // Import the database n
 // Declare configuration parameters of the Postgres database.
 const config = {
   user: dbUser,
-  host: 'server-starter.cyclic.cloud',
+  host: 'server-starter-code.vercel.app',
   port: 5432,
   password: dbPwd
 };
