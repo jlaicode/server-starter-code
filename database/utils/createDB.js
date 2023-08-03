@@ -10,7 +10,7 @@ const {dbName, dbUser, dbPwd} = require('./configDB');  // Import the database n
 // Declare configuration parameters of the Postgres database.
 const config = {
   user: dbUser,
-  host: 'https://server-starter.cyclic.cloud/',
+  host: 'https://server-starter.cyclic.cloud',
   port: 5432,
   password: dbPwd
 };
