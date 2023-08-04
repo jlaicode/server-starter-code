@@ -9,7 +9,7 @@ const express = require('express');
 const router = express.Router();
 // Home page used to test application hosting.
 const home = require("./routes/home");
-
+router.use("/home", home);
 
 // Sub-Routers ("students" and "campuses")
 const studentsRouter = require('./students');  // Import "students" sub-router functions
