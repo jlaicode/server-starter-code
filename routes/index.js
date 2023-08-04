@@ -7,6 +7,9 @@ It defines all the routes used by Express application.
 const express = require('express');
 // Create an Express router function called "router"
 const router = express.Router();
+// Home page used to test application hosting.
+const home = require("./routes/home");
+
 
 // Sub-Routers ("students" and "campuses")
 const studentsRouter = require('./students');  // Import "students" sub-router functions
