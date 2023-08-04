@@ -8,7 +8,7 @@ const express = require('express');
 // Create an Express router function called "router"
 const router = express.Router();
 // Home page used to test application hosting.
-const homeRouter = require("./routes/home");
+const homeRouter = require("./home");
 router.use("/home", homeRouter); // URL paths: "/home/"
 
 // Sub-Routers ("students" and "campuses")
